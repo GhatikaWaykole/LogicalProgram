@@ -51,6 +51,11 @@ public class logicalProblem {
             }
             System.out.println("reverse" + reverse);
         }
+        public static void watchTime(){
+        long start = System.nanoTime();
+        long stop = System.nanoTime();
+        System.out.println(start-stop+"elapse watch time");
+        }
 
         public static void main (String args[]){
             //calling the method in class
@@ -67,10 +72,11 @@ public class logicalProblem {
             // else
             //     System.out.println(number1+"number not the perfect number");
             // method calling to the prime number compute
-            System.out.println("Enter the number");
-            int num1 = input.nextInt();
+           // System.out.println("Enter the number");
+          //  int num1 = input.nextInt();
             // primeNumber(num1);
-            reverseDigit(num1);
+         //  reverseDigit(num1);
+            watchTime();
 
         }
 
